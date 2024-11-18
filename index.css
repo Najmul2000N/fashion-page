@@ -81,7 +81,7 @@ img {
 .second-content {
   height: 350px;
   width: 100%;
-  background-image: url("assets/2nd\ pic.jpg");
+  background-image: url("2nd\ pic.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
