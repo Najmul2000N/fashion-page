@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+.page-name {
+  font-size: 30px;
+}
+
+.nav-btn > span {
+  font-size: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.nav-btn > button {
+  font-size: 20px;
+  padding: 3px 10px;
+  background-color: #8c8cff;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.main-comtent {
+  min-height: 100vh;
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.first-content {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.first-img {
+  height: 100%;
+  width: 50%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+.text1 {
+  height: 100%;
+  width: 50%;
+  font-size: 36px;
+}
+
+.text1 > h1 > strong {
+  color: #8c8cff;
+}
+
+.second-content {
+  height: 350px;
+  width: 100%;
+  background-image: url("assets/2nd\ pic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.img2 {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.500);
+  border-radius: 25px;
+}
+.second-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+.third-content {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-text {
+  font-size: 35px;
+}
+.third-text > h1 > strong {
+  color: #8c8cff;
+}
+
+.heading {
+  font-size: 40px;
+
+}
+.heading > h1 > strong {
+  color: #8c8cff;
+}
+
+.cart{
+    height: 100%;
+    max-width: 100%;
+
+}
+.first-cart{
+    height: 400px;
+    padding-right: 60px;
+  
+    
+}
+
+.cd-text1{
+   height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+.cd-text1>p{
+    cursor: pointer;
+    font-size: 20px;
+}
+.cd-text1>p:hover{
+    text-decoration: underline;
+    color: #8282ff;
+}
+
+.cd-img1{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    
+}
+.cd-img1>img{
+    width: 25%;
+}
+
+.second-cart{
+    height: 400px;
+    padding-right: 60px;
+}
+
+.cd-text2{ 
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+
+
+}
+.cd-text2>p{
+    cursor: pointer;
+    font-size: 20px;
+}
+.cd-text2>p:hover{
+    text-decoration: underline;
+    color: #8282ff;
+    
+}
+
+.cd-img2{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.cd-img2>img{
+    width: 25%;
+}
+
+.third-cart{
+    height: 400px;
+    padding-right: 60px;
+}
+
+.cd-text3{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+.cd-text3>p{
+    cursor: pointer;
+    font-size: 20px;
+}
+.cd-text3>p:hover{
+    text-decoration: underline;
+    color: #8282ff;
+}
+.cd-img3{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.cd-img3>img{
+    width: 25%;
+
+}
+
+footer{
+    height: 100px;
+    max-width: 100%;
+    position: relative;
+    padding: 0px 30px;
+}
+.follow
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.follow-txt{
+    height: 30%;
+    text-transform: capitalize;
+
+}
+
+
+.follow-img{
+    height: 70%;
+
+}
+.follow-img>button{
+    height: 50%;
+    border: none;
+   margin: 7px;
+
+   
+}
+.follow-img>button>img{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+ 
+
+}
+
+.follow-txt>p{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
