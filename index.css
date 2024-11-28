@@ -111,7 +111,7 @@ img {
 .second-content {
   height: 100%;
   width: 100%;
-  background-image: url("assets/2nd\ pic.jpg");
+  background-image: url("2nd\ pic.jpg");
   background-position-x: center;
   background-position-y: top;
   background-repeat: no-repeat;
